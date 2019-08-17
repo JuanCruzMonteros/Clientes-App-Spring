@@ -30,8 +30,6 @@ import com.empresa.models.services.IClienteService;
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
-
-
 	@Autowired
 	private IClienteService clienteService;
 
